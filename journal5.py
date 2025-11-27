@@ -6,9 +6,9 @@ if len(sys.argv) == 4:
     time = float(sys.argv[3])
 else:
     print("No command-line input given — using input() method:")
-    principal=float(input("Enter principal:"))
-    rate =float(input("Enter rate:"))
-    time = float(input("Enter time:"))
+    principal=1000
+    rate =3
+    time = 8
 
 # Validate values
 if principal <= 0:
